@@ -1,0 +1,107 @@
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+section,
+header,
+aside,
+footer,
+p,
+ul,
+li,
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+
+#container {
+    width: 960px;
+    margin: auto;
+    padding: 90px 0px 100px 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+body {
+    font-family: Helvetica, arial, sans-serif;
+    background-color: #2b2b2b ;
+}
+
+header img#logo {
+    margin: 0px 0px 50px 0px;
+}
+
+header h1 {
+    margin:0px 0px 30px 90px;
+    font-size: 60px;
+    line-height: 74px;
+    font-weight: normal;
+    color: #00ffcc;
+    text-shadow: 0px 0px 10px #00ffcc ;
+}
+
+section {
+    margin: 0px 15px 30px 0px;
+    width: 530px;
+    float: left;
+
+}
+
+section p {
+    margin: 0px 0px 30px 90px;
+    font-size: 22px;
+    line-height: 35px;
+    color: #d9d9d9;
+    text-shadow: 0px 1px 5px #000;
+}
+
+section h2 {
+    margin: 0px 0px 10px 90px;
+    font-size: 40px;
+    font-weight: normal;
+    color: #00ffcc;
+    text-shadow: 0px 0px 10px #00ffcc; 
+}
+
+section ul {
+    margin: 0px 0px 30px 90px;
+    font-size: 22px;
+    line-height: 45px;
+    color: #d9d9d9;
+    text-shadow: 0px 1px 5px #000;
+}
+
+aside {
+     position: absolute; /*Element can be placed anywhere */
+     top: 20px;
+     right: 0px;
+}
+
+footer {
+    width: 960px;
+    float:left;
+}
+
+footer a#app-store {
+    display: block;
+    width: 198px;
+    height: 72px;
+    background: url(img/app-store.png);
+    text-indent: -9999px;
+    float: left;
+}
+
+footer p { 
+    float: right;
+    clear: right;
+    font-size: 16px;
+    color: #5a5a5a;
+    margin: 10px 0 0 0;
+}
+
